@@ -61,6 +61,28 @@ transition: 0.5s;
 }
 
 
+.tabsss ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tabsss ul li{
+  padding-top: 1rem;
+  padding-right:2rem ;
+  list-style: none;
+  text-decoration: none;
+}
+
+.tabsss ul li a{
+  text-decoration: none;
+  color: rgb(161,94,29);
+  font-size: 20px;
+  font-family:verdana;
+  
+}
+
+
 .Mobile{
     background: url("/banner2.jpeg");
     background-size: cover;
@@ -79,10 +101,11 @@ transition: 0.5s;
     letter-spacing: .15em; /* Adjust as needed */
     margin-top: 15rem;
     animation: 
-      typing 3.5s steps(40),
+      typing 1.5s steps(40),
       blink-caret .75s step-end infinite;
       font-size: 50px;
       font-family:courier;
+      color: white;
   }
 
   .typewriter h2 {
@@ -95,11 +118,12 @@ transition: 0.5s;
     letter-spacing: .15em; /* Adjust as needed */
     margin-top: 1rem;
     animation: 
-      typing 8s steps(40),
+      typing 4s steps(40),
       blink-caret .75s step-end infinite;
       font-size: 30px;
       font-family:courier;
       transition: 0.5s;
+    color: white;
   }
 
 
