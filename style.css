@@ -103,7 +103,7 @@ transition: 0.5s;
     animation: 
       typing 1.5s steps(40),
       blink-caret .75s step-end infinite;
-      font-size: 50px;
+      font-size: 35px;
       font-family:courier;
       color: white;
       
